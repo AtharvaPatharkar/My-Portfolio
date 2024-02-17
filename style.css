@@ -1,0 +1,173 @@
+/* style.css */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+header {
+    background: linear-gradient(to right, #ce1a1a, #15021a);
+    color: #b3c8b0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 800;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #defb05;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f5c000; /* Yellow color on hover */
+}
+
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #2a5298;
+    border-bottom: 2px solid #fed136;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #ff5100;
+}
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fed136; /* Yellow color on hover */
+}
+
+footer {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#projects div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+#projects div:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#contact ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact li {
+    flex: 0 0 48%;
+    margin-right: 2%;
+}
+
+/* Add your custom styles here */
+#skills {
+    margin-top: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 20px;
+    
+}
+
+.skill-line {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-line img {
+    margin-right: 5px;
+    max-height: 20px; /* Set a suitable height for your logos */
+}
+
+#certificates img {
+    max-width: 25%;
+    border-radius: 10px;
+}
+
+
+.skill-line img {
+    margin-right: 5px;
+}
+
+.certificates img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
