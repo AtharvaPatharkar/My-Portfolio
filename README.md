@@ -13,7 +13,7 @@ Project Showcase: Highlights key projects with details and links.
 Skills Section: Showcases the skills and technologies I am proficient in.
 Contact Information: Provides a way for visitors to get in touch with me.
 
-#Installation
+# Installation
 To set up a local copy of the portfolio, follow these steps:
 
 Clone the repository to your local machine:
