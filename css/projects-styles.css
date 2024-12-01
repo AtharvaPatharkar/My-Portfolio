@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+#projects {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* Project Container Styling */
+.project-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fafafa;
+}
+
+/* Project Title Styling */
+.project-container h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Technology Used Styling */
+.project-container p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* Project Links Styling */
+.project-link,
+.project-container a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-container a:hover {
+    text-decoration: underline;
+}
+
+/* Back Button Styling */
+.back-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+    background-color: #900;
+}
+
+/* Responsive Design */
+
+/* Mobile View */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #projects h2 {
+        font-size: 1.8rem;
+    }
+
+    .project-container h3 {
+        font-size: 1.3rem;
+    }
+
+    .back-button {
+        width: 80px;
+        font-size: 14px;
+    }
+}
+
+/* Laptop and Desktop View */
+@media (min-width: 769px) {
+    #projects {
+        padding: 30px;
+    }
+
+    .project-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .project-container h3 {
+        flex: 1;
+        font-size: 1.8rem;
+    }
+
+    .project-container p {
+        flex: 2;
+        font-size: 1.1rem;
+    }
+
+    .project-container a {
+        margin-left: 10px;
+    }
+}
